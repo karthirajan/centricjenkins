@@ -1,6 +1,7 @@
 package com.centric.stepdefinition;
 
 import java.io.File;
+import java.util.Collections;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -22,7 +23,7 @@ public class Hooks extends Commonactions {
 	@Before
 	public void before() {
 
-		 ca.launch("https://win16sql16-qa.centricsoftware.com/WebAccess/login.html");
+		 ca.launch("http://kripyaqa.centricsoftware.com/WebAccess/login.html");
 
 	}
 	

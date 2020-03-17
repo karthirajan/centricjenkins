@@ -22,13 +22,6 @@ import cucumber.api.junit.Cucumber;
 
 public class TestRunner {
 
-	@AfterTest
-	public void tearDown() {
-		//update test information to your report
-		LoginPageSteps.extent.flush();
-		//Clear all extent report resources
-		//LoginPageSteps.extent.close();		// to write or update test information to reporter
-	
-	}
+
 	
 }
